@@ -22,14 +22,14 @@ A lightweight Flutter widget for customizable dot indicators, commonly used to s
 
 
 
-## Getting started ⚫️⚫️⚫️
+## Getting started 
 
-# Constructors
+### Constructors
 - Tuldokator
     - itemCount: The total number of dots to be displayed.
     - controller: A controller for manipulating the state of the Tuldokator.
 
-## Usage
+### Usage
 
 
 ```dart
@@ -50,7 +50,7 @@ Tuldokator(
     - **toIndex(int index)**: Sets the currently selected dot index to the provided index.
 
 
-# Example
+### Example
 
 ```
 final _tuldokatorController = TuldokatorController(initialValue: 0);
