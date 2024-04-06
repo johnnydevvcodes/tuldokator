@@ -1,6 +1,6 @@
 name: tuldokator
 description: "A lightweight Flutter widget for customizable dot indicators, commonly used to show the current page in a PageView."
-version: 1.0.3
+version: 1.0.5
 repository: https://github.com/johnnydevvcodes/tuldokator
 issue_tracker: https://github.com/johnnydevvcodes/tuldokator/issues
 

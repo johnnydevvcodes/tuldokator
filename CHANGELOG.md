@@ -7,4 +7,10 @@
 ## 1.0.3
 
 * Add implementation example.
+## 1.0.4
+
+* Add showcase.
+## 1.0.5
+
+* Add pronunciation.
 

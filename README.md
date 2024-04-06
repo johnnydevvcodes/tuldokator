@@ -12,9 +12,10 @@ and the Flutter guide for
 -->
 
 
-## Features
+**Tuldokator** · *tool-doh-kay-tor*
 
-A lightweight Flutter widget for customizable dot indicators, commonly used to show the current page in a PageView.
+
+A lightweight Flutter widget **dot indicators** for PageView tracking.
 
 ## Showcase 🚀
 
@@ -22,9 +23,9 @@ A lightweight Flutter widget for customizable dot indicators, commonly used to s
 
 
 
-## Getting started 
+## Getting started 👇
 
-### Constructors
+### Properties
 - Tuldokator
     - itemCount: The total number of dots to be displayed.
     - controller: A controller for manipulating the state of the Tuldokator.
