@@ -16,7 +16,13 @@ and the Flutter guide for
 
 A lightweight Flutter widget for customizable dot indicators, commonly used to show the current page in a PageView.
 
-## Getting started
+## Showcase 🚀
+
+<img src="https://github.com/johnnydevvcodes/tuldokator/assets/28794954/e683c364-affd-4f78-b80f-bc06ff30a002" width="350" height="100" />
+
+
+
+## Getting started ⚫️⚫️⚫️
 
 # Constructors
 - Tuldokator
