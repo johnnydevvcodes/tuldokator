@@ -25,15 +25,18 @@ class _TuldokatorState extends State<Tuldokator> {
   void initState() {
     super.initState();
     widget.controller.addListener(() {
-      setState(() => _selectedPage = widget.controller.value);
-      final hasPosition = _pageController.positions.isNotEmpty;
-      if (hasPosition) {
-        _pageController.animateToPage(
-          widget.controller.value,
-          duration: const Duration(milliseconds: 300),
-          curve: Curves.easeInOut,
-        );
-      }
+      WidgetsBinding.instance.addPostFrameCallback((t) {
+        if (!mounted) return;
+        setState(() => _selectedPage = widget.controller.value);
+        final hasPosition = _pageController.positions.isNotEmpty;
+        if (hasPosition) {
+          _pageController.animateToPage(
+            widget.controller.value,
+            duration: const Duration(milliseconds: 300),
+            curve: Curves.easeInOut,
+          );
+        }
+      });
     });
   }
 
